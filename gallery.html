@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html ng-app="DogApp"xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<head>
+<title>DogWorld</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <h1>DogWorld</h1>
+    <div id="nav-top">
+      <ul>
+        <li id="tab-faq">
+          <div><a href="#">faq</a></div>
+        </li>
+        <li id="tab-map">
+          <div><a href="#">site maps</a></div>
+        </li>
+      </ul>
+    </div>
+    <div id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="home"><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="content">
+    <div class="left-col">
+      <div ng-controller="DogController" id="welcome">
+        <h2 style="margin-bottom: 5%;">Gallery</h2>
+        <img class="DogPicture" ng-src="{{response}}"><br><br>
+
+        <button class="btn btn-primary" ng-click="GetRequest()">Click here</button>
+
+        <script src="scripts/DogImageScript.js"></script>
+      </div>
+  <div class="clear" id="footc"> </div>
+  <div id="footer"> Made with <3 and the power of Kumy. All rights reserved | designed by <a href="http://www.freewebsitetemplates.com">free website templates</a></div>
+</div>
+</body>
+</html>
