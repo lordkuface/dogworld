@@ -6,7 +6,7 @@ Using <a href="https://dog.ceo/dog-api/">this</a> api, I was able to use Angular
 
 The home page.
 
-![Gallery Page](screenshots/dogworld2.png)
+![Gallery Page](screenshots/dogworld3.png)
 
 The gallery page.
 
