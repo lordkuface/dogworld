@@ -10,6 +10,6 @@ The home page.
 
 The gallery page.
 
-![Gallery Page](screenshots/dogworld3.png)
+![Gallery Page](screenshots/dogworld4.png)
 
 After refreshing images.
